@@ -11,17 +11,37 @@ The color palette is <span style="color: #000000"> #0000000 </span> for the pure
 The regular version of the logo, that I use in 99% of cases. The logo has no transparency and features clouds in the background.
 This version might be heavy to use as a `.svg` due to the clouds, and using the high-res `.png` version could be better in some cases.
 
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_clouds_256.png" />
+</p>
+
 ### Alpha
 The regular logo, with an alpha background.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_alpha_256.png" />
+</p>
 
 ### White
 The regular logo, with without transparency and a white background.
 
-### Black_White
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_white_256.png" />
+</p>
+
+### Black and White
 A black and white (greyscale) version of the logo, with a white background and no transparency.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_black_white_256.png" />
+</p>
 
 ### Outline
 A pure outline (in black) of the logo, with a transparent background.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_outline_256.png" />
+</p>
 
 
 # Font
@@ -30,7 +50,7 @@ It can be useful to import the black & white, outlined, logo in different progra
 As a font, the logo can be scaled easily to any size.
 
 This font contains a single changed character the `m` (`0x6d`) character.
-The font is called `m1` on the file system, and is licensed under GPLv3.
+The font is called `m1` on the file system, and I have licensed it under the GNU Public License 3 (GPLv3) like everything else in this repo.
 
 You might need to restart your program for it to refresh its font list after installation.
 In certain programs, such as Word, using any other character than `m` will reset the select font to the default document's font.

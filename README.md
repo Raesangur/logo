@@ -3,7 +3,7 @@ This repository contains various representations of my logo, a mix of a `m` and 
 The various versions have been generated from the `m1.svg` file.
 In addition to the graphical versions, a font is available as well to import the logo in various programs.
 
-The color palette is <span style="color: #000000> `#0000000` </span> for the pure black and <span style="color:#AA0000> `#AA0000` </span> for the red.
+The color palette is <span style="color: #000000"> #0000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red.
 
 `.png` pictures have been exported for each variant of the logo, in three available resolutions, a low-res `256x256`, a `512x512` and a high-res `2048x2048`.
 

@@ -5,7 +5,7 @@ In addition to the graphical versions, a font is available as well to import the
 
 The color palette is <span style="color: #000000"> #0000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red, with <span style="color: #666666"> #666666 </span> for the greyscale version of the red.
 
-`.png` pictures have been exported for each variant of the logo, in three available resolutions, a low-res `256x256`, a `512x512` and a high-res `2048x2048`.
+`.png` pictures have been exported for each variant of the logo, in many available resolutions: `16x16`, `32x32`, `48x48`, `64x64`, `128x128`, `256x256`, `512x512`, `1024x1024` and `2048x2048`.
 
 
 ### Clouds

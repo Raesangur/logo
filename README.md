@@ -3,7 +3,7 @@ This repository contains various representations of my logo, a mix of a `m` and 
 The various versions have been generated from the `m1.svg` file, with different layers displayed or not to achieve the different versions.
 In addition to the graphical versions, a font is available as well to import the logo in various programs.
 
-The color palette is <span style="color: #000000> `#0000000` </span> for the pure black and <span style="color:#AA0000> `#AA0000` </span> for the red.
+The color palette is <span style="color: #000000"> #0000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red.
 
 `.png` pictures have been exported for each variant of the logo, in three available resolutions, a low-res `256x256`, a `512x512` and a high-res `2048x2048`.
 `.svg` and `.pdf` pictures have also been exported as vector graphics. `.pdf` pictures were generated with a 600dpi resolution. The `.svg` subversions were created from the main `m1.svg`, with unused layers cleaned off, and can be used as vector images directly, to regenerate the `.pdf` files or to generate other formats such as `.html` or `.tex` versions which have not been included in this repository.
@@ -12,18 +12,38 @@ The color palette is <span style="color: #000000> `#0000000` </span> for the pur
 The regular version of the logo, that I use in 99% of cases. The logo has no transparency and features clouds in the background.
 This version might be heavy to use as a `.svg` due to the clouds, and using the high-res `.png` version could be better in some cases.
 
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_clouds_256.png" />
+</p>
+
 ### Alpha
 The regular logo, with an alpha background.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_alpha_256.png" />
+</p>
 
 ### White
 The regular logo, with without transparency and a white background.
 
-### Black_White
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_white_256.png" />
+</p>
+
+### Black and White
 A black and white (greyscale) version of the logo, with a white background and no transparency.
 This version also has less blur than the previous versions.
 
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_black_white_256.png" />
+</p>
+
 ### Outline
 A pure outline (in black) of the logo, with a transparent background.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/m1_outline_256.png" />
+</p>
 
 
 # Font
@@ -32,7 +52,7 @@ It can be useful to import the black & white, outlined, logo in different progra
 As a font, the logo can be scaled easily to any size.
 
 This font contains a single changed character the `m` (`0x6d`) character.
-The font is called `m1` on the file system, and is licensed under GPLv3.
+The font is called `m1` on the file system, and I have licensed it under the GNU Public License 3 (GPLv3) like everything else in this repo.
 
 You might need to restart your program for it to refresh its font list after installation.
 In certain programs, such as Word, using any other character than `m` will reset the select font to the default document's font.

@@ -24,7 +24,7 @@ The regular logo, with an alpha background.
 </p>
 
 ### White
-The regular logo, with without transparency and a white background.
+The regular logo, without transparency and a white background.
 
 <p align="center">
   <img src="https://github.com/raesangur/logo/blob/master/white/m1_white_256.png" />
@@ -67,4 +67,11 @@ In addition to the `.png` files, various other formats have also been generated 
 The `.svg` subversions were created from the main `m1.svg`, with unused layers cleaned off, and can be used as vector images directly, to regenerate the `.pdf` files or to generate other formats such as `.html` or `.tex` versions which have not been included in this repository.
 
 ## Icons
-`.ico` files have been generated for each of the variants. The icons contain a 16x16, 32x32, 48x48, 128x128 and 256x256 version, with 32-bits colors (24 for colors and 8 for transparency), combined into a single `.ico` picture with https://www.icoconverter.com/ 
+`.ico` files have been generated for each of the variants. The icons contain a `16x16`, `32x32`, `48x48`, `128x128` and `256x256` version, with 32-bits colors (24 for colors and 8 for transparency), combined into a single `.ico` picture with https://www.icoconverter.com/ 
+
+# ASCII
+ASCII Art versions of the logo have been generated using https://www.asciiart.eu/image-to-ascii, with all settings left at default.
+Various line width have been generated: 20, 30, 40, 80 and 100.
+`@` characters have been used to represent the black `M` part, while `&` characters have been used to represent the red `1` part of the logo.
+
+The echo variants of this ascii art also exist for all dimensions, which print to the console using ANSI colors. These work with any color-supporting ANSI-compliant terminal emulator, which includes the new Windows Terminal and PowerShell. If you wish to use this in the old `cmd.exe` Windows utility, you should set `VirtualTerminalLevel` (`REG_DWORD`) to `1` in the registry under `HKEY_CURRENT_USER\Console`.

@@ -75,3 +75,6 @@ Various line width have been generated: 20, 30, 40, 80 and 100.
 `@` characters have been used to represent the black `M` part, while `&` characters have been used to represent the red `1` part of the logo.
 
 The echo variants of this ascii art also exist for all dimensions, which print to the console using ANSI colors. These work with any color-supporting ANSI-compliant terminal emulator, which includes the new Windows Terminal and PowerShell. If you wish to use this in the old `cmd.exe` Windows utility, you should set `VirtualTerminalLevel` (`REG_DWORD`) to `1` in the registry under `HKEY_CURRENT_USER\Console`.
+
+# GIF
+GIF animations of the logo have been created using Canva, importing the `.svg` into it and playing with its recommended settings in a free trial. The two halves of the logo are in the alpha folder, as `1_alpha.svg` and `m_alpha.svg`.

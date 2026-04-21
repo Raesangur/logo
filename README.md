@@ -78,3 +78,4 @@ The echo variants of this ascii art also exist for all dimensions, which print t
 
 # GIF
 GIF animations of the logo have been created using Canva, importing the `.svg` into it and playing with its recommended settings in a free trial. The two halves of the logo are in the alpha folder, as `1_alpha.svg` and `m_alpha.svg`.
+Another GIF animation (the "patpat" version) was generated using [benisland's petpet generator](https://benisland.neocities.org/petpet/), from the `m1_alpha_2048.png` reference image.

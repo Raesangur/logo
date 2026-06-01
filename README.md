@@ -3,7 +3,8 @@ This repository contains various representations of my logo, a mix of a `m` and 
 The various versions have been generated from the `m1.svg` file, with different layers displayed or not to achieve the different versions.
 In addition to the graphical versions, a font is available as well to import the logo in various programs.
 
-The color palette is <span style="color: #000000"> #0000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red, with <span style="color: #666666"> #666666 </span> for the greyscale version of the red.
+The color palette is <span style="color: #000000"> #000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red, with <span style="color: #666666"> #666666 </span> for the greyscale version of the red.
+The color palette for the LGBT variant is <span style="color: #AA0000"> #AA0000 for the red, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D4B000"> #D4B000 for the yellow, <span style="color: #00AA22"> #00AA22 for the green, <span style="color: #0066CC"> #0066CC for the blue and <span style="color: #7A2CA0"> #7A2CA0 for the purple.
 
 `.png` pictures have been exported for each variant of the logo, in many available resolutions: `16x16`, `32x32`, `48x48`, `64x64`, `128x128`, `256x256`, `512x512`, `1024x1024` and `2048x2048`.
 
@@ -28,6 +29,13 @@ The regular logo, without transparency and a white background.
 
 <p align="center">
   <img src="https://github.com/raesangur/logo/blob/master/white/m1_white_256.png" />
+</p>
+
+### LGBT
+A color variant of the regular logo, with a cloud background, used during pride month.
+
+<p align="center">
+  <img src="https://github.com/raesangur/logo/blob/master/lgbt/m1_lgbt_256.png" />
 </p>
 
 ### Black and White

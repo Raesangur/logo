@@ -3,10 +3,12 @@ This repository contains various representations of my logo, a mix of a `m` and 
 The various versions have been generated from the `m1.svg` file, with different layers displayed or not to achieve the different versions.
 In addition to the graphical versions, a font is available as well to import the logo in various programs.
 
+The logo and all its variants were created by hand in Inkscape, no AI has been used to generate any of the graphics included in this repository.
+
 The color palette is <span style="color: #000000"> #000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red, with <span style="color: #666666"> #666666 </span> for the greyscale version of the red.
 The color palette for the LGBT variant is <span style="color: #AA0000"> #AA0000 for the red, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D4B000"> #D4B000 for the yellow, <span style="color: #00AA22"> #00AA22 for the green, <span style="color: #0066CC"> #0066CC for the blue and <span style="color: #7A2CA0"> #7A2CA0 for the purple.
 
-`.png` pictures have been exported for each variant of the logo, in many available resolutions: `16x16`, `32x32`, `48x48`, `64x64`, `128x128`, `256x256`, `512x512`, `1024x1024` and `2048x2048`.
+`.png` and `.webp` pictures have been exported for each variant of the logo, in many available resolutions: `32x32`, `256x256`, `512x512`, `1024x1024` and `2048x2048`.
 
 
 ### Clouds
@@ -70,9 +72,9 @@ In certain programs, such as Word, using any other character than `m` will reset
 In addition to the `.png` files, various other formats have also been generated for each variant.
 
 ## Vector graphics
-`.svg` and `.pdf` pictures have also been exported as vector graphics.
+`.svg`, `.eps` and `.pdf` pictures have also been exported as vector graphics.
 `.pdf` pictures were generated with a 600dpi resolution.
-The `.svg` subversions were created from the main `m1.svg`, with unused layers cleaned off, and can be used as vector images directly, to regenerate the `.pdf` files or to generate other formats such as `.html` or `.tex` versions which have not been included in this repository.
+The `.svg` subversions were created from the main `m1.svg`, with unused layers hidden, and can be used as vector images directly, to regenerate the `.pdf` files or to generate other formats such as `.html` or `.tex` versions which have not been included in this repository.
 
 ## Icons
 `.ico` files have been generated for each of the variants. The icons contain a `16x16`, `32x32`, `48x48`, `128x128` and `256x256` version, with 32-bits colors (24 for colors and 8 for transparency), combined into a single `.ico` picture with https://www.icoconverter.com/ 
@@ -87,3 +89,20 @@ The echo variants of this ascii art also exist for all dimensions, which print t
 # GIF
 GIF animations of the logo have been created using Canva, importing the `.svg` into it and playing with its recommended settings in a free trial. The two halves of the logo are in the alpha folder, as `1_alpha.svg` and `m_alpha.svg`.
 Another GIF animation (the "patpat" version) was generated using [benisland's petpet generator](https://benisland.neocities.org/petpet/), from the `m1_alpha_2048.png` reference image.
+
+# Export Script
+An export script, `export.py`, is used to generate each main variant folder and export the logo in its various available format. This script selectively hides and shows various layers of the main `m1.svg` input file (as specified with the `--input` parameter), and exports the list of format using Inkscape and Pillow, adding authoring and licensing metadata in the process.
+
+AI Use Notice: The `export.py` script was written by Microsoft Copilot.
+
+## Dependencies
+The script uses `inkscape` to do most of the export. The Python `Pillow` library is used to convert from `.png` to `.webp` and from `.png` to `.ico`.
+
+## Usage
+```
+  python export.py --input m1.svg --output ./
+  python export.py --input m1.svg --output ./ --force
+  python export.py --input m1.svg --output ./ --verbose
+```
+
+By default, existing files are not overwritten. The `--force` flag writes over existing files to update them.

@@ -95,12 +95,12 @@ Another GIF animation (the "patpat" version) was generated using [benisland's pe
 # Export Script
 An export script, `export.py`, is used to generate each main variant folder and export the logo in its various available format. This script selectively hides and shows various layers of the main `m1.svg` input file (as specified with the `--input` parameter), and exports the list of format using Inkscape and Pillow, adding authoring and licensing metadata in the process.
 
-AI Use Notice: The `export.py` script was written by Microsoft Copilot.
+**AI Use Notice**: The `export.py` script was written by Microsoft Copilot. The images themselves are *not* AI generated.
 
-## Dependencies
+### Dependencies
 The script uses `inkscape` to do most of the export. The Python `Pillow` library is used to convert from `.png` to `.webp` and from `.png` to `.ico`.
 
-## Usage
+### Usage
 ```
   python export.py --input m1.svg --output ./
   python export.py --input m1.svg --output ./ --force

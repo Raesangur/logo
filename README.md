@@ -5,8 +5,8 @@ In addition to the graphical versions, a font is available as well to import the
 
 The logo and all its variants were created by hand in Inkscape, no AI has been used to generate any of the graphics included in this repository.
 
-The color palette is <span style="color: #000000"> #000000 </span> for the pure black and <span style="color:#AA0000"> #AA0000 </span> for the red, with <span style="color: #666666"> #666666 </span> for the greyscale version of the red.
-The color palette for the LGBT variant is <span style="color: #AA0000"> #AA0000 for the red, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D17C00"> #D17C00 for the orange, <span style="color: #D4B000"> #D4B000 for the yellow, <span style="color: #00AA22"> #00AA22 for the green, <span style="color: #0066CC"> #0066CC for the blue and <span style="color: #7A2CA0"> #7A2CA0 for the purple. The chosen contrasting color is cyan: <span style="color:#00AAAA"> #00AAAA </span>.
+The color palette is ![#000000](https://placehold.co/15x15/000000/000000.png) `#000000` for the pure black and ![#AA0000](https://placehold.co/15x15/AA0000/AA0000.png) `#AA0000` for the red, with ![#666666](https://placehold.co/15x15/666666/666666.png) `#666666` for the greyscale version of the red.
+The color palette for the LGBT variant is ![#AA0000](https://placehold.co/15x15/AA0000/AA0000.png) `#AA0000` for the red, ![#D17C00](https://placehold.co/15x15/D17C00/D17C00.png) `#D17C00` for the orange, ![#D4B000](https://placehold.co/15x15/D4B000/D4B000.png) `#D4B000` for the yellow, ![#00AA22](https://placehold.co/15x15/00AA22/00AA22.png) `#00AA22` for the green, ![#0066CC](https://placehold.co/15x15/0066CC/0066CC.png) `#0066CC` for the blue and ![#7A2CA0](https://placehold.co/15x15/7A2CA0/7A2CA0.png) `#7A2CA0` for the purple. The chosen contrasting color is cyan: ![#00AAAA](https://placehold.co/15x15/00AAAA/00AAAA.png) `#00AAAA`.
 
 `.png` and `.webp` pictures have been exported for each variant of the logo, in many available resolutions: `32x32`, `256x256`, `512x512`, `1024x1024` and `2048x2048`.
 
